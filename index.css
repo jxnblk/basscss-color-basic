@@ -1,0 +1,37 @@
+/*
+ * Basscss Color Basic
+ */
+
+@import "./lib/base";
+@import "./lib/colors";
+@import "./lib/borders";
+
+@import "./lib/forms";
+@import "./lib/tables";
+@import "./lib/button-blue";
+@import "./lib/button-blue-outline";
+@import "./lib/button-gray";
+
+
+/* Defaults */
+
+:root {
+
+  --dark-gray: #304650;
+  --blue: #0076df;
+  --mid-gray: #667680;
+  --light-gray: #f3f9f9;
+  --red: #f96010;
+  --green: #11e966;
+  --yellow: #ffdc00;
+
+  --darken-1: rgba(#036,.03125);
+  --darken-2: rgba(#036,.0625);
+  --darken-3: rgba(#036,.125);
+
+  --border-color: var(--darken-3);
+  --border-width: 1px;
+  --border-radius: 3px;
+
+}
+
