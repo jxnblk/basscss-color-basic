@@ -15,7 +15,7 @@ a {
   }
 
 pre, code {
-  background-color: var(--light-gray);
+  background-color: var(--lighter-gray);
   border-radius: var(--border-radius);
 }
 
