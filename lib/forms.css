@@ -1,7 +1,6 @@
 
 .field-light {
   background-color: white;
-  background-color: rgba(white,.125);
   transition: box-shadow .2s ease;
   border-style: solid;
   border-width: var(--border-width);
