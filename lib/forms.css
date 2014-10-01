@@ -1,8 +1,7 @@
 
-.input,
-.textarea,
-.select {
+.field-light {
   background-color: white;
+  background-color: rgba(white,.125);
   transition: box-shadow .2s ease;
   border-style: solid;
   border-width: var(--border-width);
@@ -10,25 +9,49 @@
   border-radius: var(--border-radius);
 }
 
-  .input:focus,
-  .textarea:focus,
-  .select:focus {
+  .field-light:focus {
     outline: none;
     border-color: var(--blue);
     box-shadow: 0 0 2px rgba(var(--blue),.5);
   }
 
-.radio,
-.checkbox {
+  .field-light:disabled {
+    color: var(--mid-gray);
+    background-color: var(--darken-2);
+  }
+
+  .field-light:read-only:not(select) {
+    background-color: var(--darken-2);
+  }
+
+  .field-light:invalid {
+    border-color: var(--red);
+  }
+
+  .field-light.has-success {
+    border-color: var(--green);
+  }
+
+  .field-light.has-warning {
+    border-color: var(--yellow);
+  }
+
+  .field-light.has-error {
+    border-color: var(--red);
+  }
+
+
+.radio-light,
+.checkbox-light {
   transition: box-shadow: .2s ease;
 }
 
-.radio {
+.radio-light {
   border-radius: 50%;
 }
   
-  .radio:focus,
-  .checkbox:focus {
+  .radio-light:focus,
+  .checkbox-light:focus {
     outline: none;
     box-shadow: 0 0 2px rgba(var(--blue),.5);
   }
