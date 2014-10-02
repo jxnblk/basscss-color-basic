@@ -42,7 +42,7 @@
 
 .radio-light,
 .checkbox-light {
-  transition: box-shadow: .2s ease;
+  transition: box-shadow .2s ease;
 }
 
 .radio-light {
