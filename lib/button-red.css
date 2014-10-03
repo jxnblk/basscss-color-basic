@@ -7,20 +7,20 @@
   transition-property: box-shadow, background-color;
 }
   
-  .button-red:hover {
-    opacity: .875;
-  }
+.button-red:hover {
+  opacity: .875;
+}
 
-  .button-red:active {
-    box-shadow: inset 0 3px 3px 0 rgba(#000,.25);
-  }
+.button-red:active {
+  box-shadow: inset 0 3px 3px 0 rgba(#000,.25);
+}
 
-  .button-red:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(var(--red), .5);
-  }
+.button-red:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(var(--red), .5);
+}
 
-  .button-red:disabled,
-  .button-red.disabled {
-    opacity: .5;
-  }
+.button-red:disabled,
+.button-red.disabled {
+  opacity: .5;
+}

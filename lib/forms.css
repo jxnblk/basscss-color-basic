@@ -8,36 +8,36 @@
   border-radius: var(--border-radius);
 }
 
-  .field-light:focus {
-    outline: none;
-    border-color: var(--blue);
-    box-shadow: 0 0 2px rgba(var(--blue),.5);
-  }
+.field-light:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 2px rgba(var(--blue),.5);
+}
 
-  .field-light:disabled {
-    color: var(--mid-gray);
-    background-color: var(--darken-2);
-  }
+.field-light:disabled {
+  color: var(--mid-gray);
+  background-color: var(--darken-2);
+}
 
-  .field-light:read-only:not(select) {
-    background-color: var(--darken-2);
-  }
+.field-light:read-only:not(select) {
+  background-color: var(--darken-2);
+}
 
-  .field-light:invalid {
-    border-color: var(--red);
-  }
+.field-light:invalid {
+  border-color: var(--red);
+}
 
-  .field-light.has-success {
-    border-color: var(--green);
-  }
+.field-light.is-success {
+  border-color: var(--green);
+}
 
-  .field-light.has-warning {
-    border-color: var(--yellow);
-  }
+.field-light.is-warning {
+  border-color: var(--yellow);
+}
 
-  .field-light.has-error {
-    border-color: var(--red);
-  }
+.field-light.is-error {
+  border-color: var(--red);
+}
 
 
 .radio-light,
@@ -49,9 +49,9 @@
   border-radius: 50%;
 }
   
-  .radio-light:focus,
-  .checkbox-light:focus {
-    outline: none;
-    box-shadow: 0 0 2px rgba(var(--blue),.5);
-  }
+.radio-light:focus,
+.checkbox-light:focus {
+  outline: none;
+  box-shadow: 0 0 2px rgba(var(--blue),.5);
+}
 
