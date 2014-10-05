@@ -12,8 +12,9 @@
   opacity: .875;
 }
 
-.button-gray:active {
-  box-shadow: inset 0 3px 3px 0 rgba(#000,.25);
+.button-gray:active,
+.button-gray:is-active {
+  box-shadow: inset 0 2px 3px 0 rgba(#000,.25);
 }
 
 .button-gray:focus {

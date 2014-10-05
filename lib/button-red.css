@@ -11,8 +11,9 @@
   opacity: .875;
 }
 
-.button-red:active {
-  box-shadow: inset 0 3px 3px 0 rgba(#000,.25);
+.button-red:active,
+.button-red.is-active {
+  box-shadow: inset 0 2px 3px 0 rgba(#000,.25);
 }
 
 .button-red:focus {
