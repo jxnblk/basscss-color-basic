@@ -21,6 +21,6 @@
 }
 
 .button-red:disabled,
-.button-red.disabled {
+.button-red.is-disabled {
   opacity: .5;
 }
