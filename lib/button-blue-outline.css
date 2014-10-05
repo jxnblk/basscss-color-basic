@@ -1,15 +1,17 @@
 
 .button-blue-outline {
+  line-height: 1;
   color: var(--blue);
   background-color: transparent;
   border-radius: var(--border-radius);
-  box-shadow: inset 0 0 0 2px var(--blue);
+  border: 2px solid var(--blue);
   transition-duration: .1s;
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color;
 }
   
-.button-blue-outline:hover {
+.button-blue-outline:hover,
+.button-blue-outline.is-active {
   color: white;
   background-color: var(--blue);
 }
@@ -20,11 +22,11 @@
 
 .button-blue-outline:focus {
   outline: none;
-  box-shadow: inset 0 0 0 2px var(--blue), 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(var(--blue), .5);
+  box-shadow: 0 0 0 2px rgba(white, .5), 0 0 1px 4px rgba(var(--blue), .5);
 }
 
 .button-blue-outline:disabled,
-.button-blue-outline.disabled {
+.button-blue-outline.is-disabled {
   color: var(--blue);
   background-color: transparent;
   opacity: .5;
