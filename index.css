@@ -3,9 +3,6 @@
  */
 
 @import "./lib/base";
-@import "./lib/colors";
-@import "./lib/borders";
-
 @import "./lib/form-field-light";
 @import "./lib/form-field-dark";
 @import "./lib/tables";
@@ -16,6 +13,9 @@
 @import "./lib/button-nav-light";
 @import "./lib/button-nav-dark";
 @import "./lib/button-nav-tab";
+@import "./lib/colors";
+@import "./lib/borders";
+
 
 
 /* Defaults */
