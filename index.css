@@ -1,21 +1,12 @@
-/*
- * Basscss Color Basic
- */
+/* Basscss Color Basic */
 
-@import "./lib/base";
-@import "./lib/form-field-light";
-@import "./lib/form-field-dark";
-@import "./lib/tables";
-@import "./lib/button-blue";
-@import "./lib/button-blue-outline";
-@import "./lib/button-gray";
-@import "./lib/button-red";
-@import "./lib/button-nav-light";
-@import "./lib/button-nav-dark";
-@import "./lib/button-nav-tab";
-@import "./lib/colors";
-@import "./lib/borders";
-
+@import "basscss-color-base";
+@import "basscss-color-forms";
+@import "basscss-color-forms-dark";
+@import "basscss-color-tables";
+@import "basscss-color-buttons";
+@import "basscss-colors";
+@import "basscss-color-borders";
 
 
 /* Defaults */
